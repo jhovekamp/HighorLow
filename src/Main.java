@@ -34,17 +34,14 @@ public class Main
         // when done is true !done i.e. NOT TRUE is false
         System.out.println("\nThe random number is: " + val);
         System.out.println("\nYou entered: " + num);
-        if (num > val)
         {
             done = true;
             System.out.println("\nYour number is high!");
         }
-        if (num < val)
         {
             done = true;
             System.out.println("\nYour number is low!");
         }
-        if (num == val)
         {
             done = true;
             System.out.println("\nYour number is on the money!");
