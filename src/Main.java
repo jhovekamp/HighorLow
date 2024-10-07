@@ -36,22 +36,18 @@ public class Main
         System.out.println("You entered: " + num);
         if (num>val && num>=0 && num<=10)
         {
-            done = true;
             System.out.println("Your number is high!");
         }
         if (num<val && num>=0 && num<=10)
         {
-            done = true;
             System.out.println("Your number is low!");
         }
         if (num==val && num>=0 && num<=10)
         {
-            done = true;
             System.out.println("Your number is on the money!");
         }
         if (num<=0 || num >=10)
         {
-            done = true;
             System.out.println("You entered a number out of range. Try again!");
         }
     }
